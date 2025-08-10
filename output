@@ -1,0 +1,203 @@
+xmelab: *W,CUVWSI (./testbench.sv,238|13): 1 input port was not connected:
+xmelab: (./design.sv,3): rst
+
+	Top level design units:
+		$unit_0x67f934e9
+		tb
+Loading snapshot worklib.tb:sv .................... Done
+SVSEED default: 1
+xcelium> source /xcelium23.09/tools/xcelium/files/xmsimrc
+xcelium> run
+[DRV] :DUT RESET DONE
+---------------------
+[GEN] : Oper : 0 iteration : 1
+[DRV]:DATA READ
+[MON] :Wr:0 din:1 dout:0 full=0 empty:01
+[SOC] ::Wr:0 din:1 dout:0 full=0 empty:01
+FIFO IS EMPTY
+---------------------
+[GEN] : Oper : 1 iteration : 2
+[DRV] : DATA WRITE data=169
+[MON] :Wr:1 din:0 dout:169 full=0 empty:01
+[SOC] ::Wr:1 din:0 dout:169 full=0 empty:01
+[SOC] DATA STORED IN QUEUE 169
+-------------------
+[GEN] : Oper : 1 iteration : 3
+[DRV] : DATA WRITE data=23
+[MON] :Wr:1 din:0 dout:23 full=0 empty:00
+[SOC] ::Wr:1 din:0 dout:23 full=0 empty:00
+[SOC] DATA STORED IN QUEUE 23
+-------------------
+[GEN] : Oper : 0 iteration : 4
+[DRV]:DATA READ
+[MON] :Wr:0 din:1 dout:23 full=169 empty:00
+[SOC] ::Wr:0 din:1 dout:23 full=169 empty:00
+[SOC]:DATA MATCHED
+---------------------
+[GEN] : Oper : 0 iteration : 5
+[DRV]:DATA READ
+[MON] :Wr:0 din:1 dout:23 full=23 empty:00
+[SOC] ::Wr:0 din:1 dout:23 full=23 empty:00
+[SOC]:DATA MATCHED
+---------------------
+[GEN] : Oper : 0 iteration : 6
+[DRV]:DATA READ
+[MON] :Wr:0 din:1 dout:23 full=23 empty:01
+[SOC] ::Wr:0 din:1 dout:23 full=23 empty:01
+FIFO IS EMPTY
+---------------------
+[GEN] : Oper : 1 iteration : 7
+[DRV] : DATA WRITE data=193
+[MON] :Wr:1 din:0 dout:193 full=23 empty:01
+[SOC] ::Wr:1 din:0 dout:193 full=23 empty:01
+[SOC] DATA STORED IN QUEUE 193
+-------------------
+[GEN] : Oper : 0 iteration : 8
+[DRV]:DATA READ
+[MON] :Wr:0 din:1 dout:193 full=193 empty:00
+[SOC] ::Wr:0 din:1 dout:193 full=193 empty:00
+[SOC]:DATA MATCHED
+---------------------
+[GEN] : Oper : 1 iteration : 9
+[DRV] : DATA WRITE data=14
+[MON] :Wr:1 din:0 dout:14 full=193 empty:01
+[SOC] ::Wr:1 din:0 dout:14 full=193 empty:01
+[SOC] DATA STORED IN QUEUE 14
+-------------------
+[GEN] : Oper : 0 iteration : 10
+[DRV]:DATA READ
+[MON] :Wr:0 din:1 dout:14 full=14 empty:00
+[SOC] ::Wr:0 din:1 dout:14 full=14 empty:00
+[SOC]:DATA MATCHED
+---------------------
+[GEN] : Oper : 1 iteration : 11
+[DRV] : DATA WRITE data=120
+[MON] :Wr:1 din:0 dout:120 full=14 empty:01
+[SOC] ::Wr:1 din:0 dout:120 full=14 empty:01
+[SOC] DATA STORED IN QUEUE 120
+-------------------
+[GEN] : Oper : 1 iteration : 12
+[DRV] : DATA WRITE data=40
+[MON] :Wr:1 din:0 dout:40 full=14 empty:00
+[SOC] ::Wr:1 din:0 dout:40 full=14 empty:00
+[SOC] DATA STORED IN QUEUE 40
+-------------------
+[GEN] : Oper : 0 iteration : 13
+[DRV]:DATA READ
+[MON] :Wr:0 din:1 dout:40 full=120 empty:00
+[SOC] ::Wr:0 din:1 dout:40 full=120 empty:00
+[SOC]:DATA MATCHED
+---------------------
+[GEN] : Oper : 0 iteration : 14
+[DRV]:DATA READ
+[MON] :Wr:0 din:1 dout:40 full=40 empty:00
+[SOC] ::Wr:0 din:1 dout:40 full=40 empty:00
+[SOC]:DATA MATCHED
+---------------------
+[GEN] : Oper : 0 iteration : 15
+[DRV]:DATA READ
+[MON] :Wr:0 din:1 dout:40 full=40 empty:01
+[SOC] ::Wr:0 din:1 dout:40 full=40 empty:01
+FIFO IS EMPTY
+---------------------
+[GEN] : Oper : 1 iteration : 16
+[DRV] : DATA WRITE data=172
+[MON] :Wr:1 din:0 dout:172 full=40 empty:01
+[SOC] ::Wr:1 din:0 dout:172 full=40 empty:01
+[SOC] DATA STORED IN QUEUE 172
+-------------------
+[GEN] : Oper : 1 iteration : 17
+[DRV] : DATA WRITE data=131
+[MON] :Wr:1 din:0 dout:131 full=40 empty:00
+[SOC] ::Wr:1 din:0 dout:131 full=40 empty:00
+[SOC] DATA STORED IN QUEUE 131
+-------------------
+[GEN] : Oper : 1 iteration : 18
+[DRV] : DATA WRITE data=27
+[MON] :Wr:1 din:0 dout:27 full=40 empty:00
+[SOC] ::Wr:1 din:0 dout:27 full=40 empty:00
+[SOC] DATA STORED IN QUEUE 27
+-------------------
+[GEN] : Oper : 1 iteration : 19
+[DRV] : DATA WRITE data=38
+[MON] :Wr:1 din:0 dout:38 full=40 empty:00
+[SOC] ::Wr:1 din:0 dout:38 full=40 empty:00
+[SOC] DATA STORED IN QUEUE 38
+-------------------
+[GEN] : Oper : 1 iteration : 20
+[DRV] : DATA WRITE data=32
+[MON] :Wr:1 din:0 dout:32 full=40 empty:00
+[SOC] ::Wr:1 din:0 dout:32 full=40 empty:00
+[SOC] DATA STORED IN QUEUE 32
+-------------------
+[GEN] : Oper : 0 iteration : 21
+[DRV]:DATA READ
+[MON] :Wr:0 din:1 dout:32 full=172 empty:00
+[SOC] ::Wr:0 din:1 dout:32 full=172 empty:00
+[SOC]:DATA MATCHED
+---------------------
+[GEN] : Oper : 1 iteration : 22
+[DRV] : DATA WRITE data=75
+[MON] :Wr:1 din:0 dout:75 full=172 empty:00
+[SOC] ::Wr:1 din:0 dout:75 full=172 empty:00
+[SOC] DATA STORED IN QUEUE 75
+-------------------
+[GEN] : Oper : 0 iteration : 23
+[DRV]:DATA READ
+[MON] :Wr:0 din:1 dout:75 full=131 empty:00
+[SOC] ::Wr:0 din:1 dout:75 full=131 empty:00
+[SOC]:DATA MATCHED
+---------------------
+[GEN] : Oper : 0 iteration : 24
+[DRV]:DATA READ
+[MON] :Wr:0 din:1 dout:75 full=27 empty:00
+[SOC] ::Wr:0 din:1 dout:75 full=27 empty:00
+[SOC]:DATA MATCHED
+---------------------
+[GEN] : Oper : 1 iteration : 25
+[DRV] : DATA WRITE data=137
+[MON] :Wr:1 din:0 dout:137 full=27 empty:00
+[SOC] ::Wr:1 din:0 dout:137 full=27 empty:00
+[SOC] DATA STORED IN QUEUE 137
+-------------------
+[GEN] : Oper : 1 iteration : 26
+[DRV] : DATA WRITE data=148
+[MON] :Wr:1 din:0 dout:148 full=27 empty:00
+[SOC] ::Wr:1 din:0 dout:148 full=27 empty:00
+[SOC] DATA STORED IN QUEUE 148
+-------------------
+[GEN] : Oper : 0 iteration : 27
+[DRV]:DATA READ
+[MON] :Wr:0 din:1 dout:148 full=38 empty:00
+[SOC] ::Wr:0 din:1 dout:148 full=38 empty:00
+[SOC]:DATA MATCHED
+---------------------
+[GEN] : Oper : 0 iteration : 28
+[DRV]:DATA READ
+[MON] :Wr:0 din:1 dout:148 full=32 empty:00
+[SOC] ::Wr:0 din:1 dout:148 full=32 empty:00
+[SOC]:DATA MATCHED
+---------------------
+[GEN] : Oper : 1 iteration : 29
+[DRV] : DATA WRITE data=18
+[MON] :Wr:1 din:0 dout:18 full=32 empty:00
+[SOC] ::Wr:1 din:0 dout:18 full=32 empty:00
+[SOC] DATA STORED IN QUEUE 18
+-------------------
+[GEN] : Oper : 0 iteration : 30
+[DRV]:DATA READ
+[MON] :Wr:0 din:1 dout:18 full=75 empty:00
+[SOC] ::Wr:0 din:1 dout:18 full=75 empty:00
+[SOC]:DATA MATCHED
+---------------------
+----------------
+error count =0
+----------------
+Simulation complete via $finish(1) at time 1890 NS + 0
+./testbench.sv:223       $finish();
+xcelium> exit
+TOOL:	xrun	23.09-s001: Exiting on Aug 10, 2025 at 09:30:03 EDT  (total: 00:00:02)
+Finding VCD file...
+./dump.vcd
+[2025-08-10 13:30:03 UTC] Opening EPWave...
+Done
